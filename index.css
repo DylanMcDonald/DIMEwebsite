@@ -1,0 +1,104 @@
+@@ -0,0 +1,103 @@
+html body {
+   height: auto;
+   width: auto;
+   text-align: center;
+   background: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;;
+}
+
+.container{
+   margin-left: 5%;
+   margin-right: 5%;
+}
+
+h1 {
+  font-family: sans-serif;
+  font-size: 40px;
+  text-decoration: underline;
+  color: white;
+}
+
+p{
+  font-family: sans-serif;
+  font-size: 18px;
+  color: white;
+  padding-top: 10px;
+}
+
+a {
+  color: inherit;
+}
+
+/* The following code was gotten from the website: http://staff.washington.edu/tft/tests/menus/html5/index.html and is for the nav bar */
+/* I used the browers inpection tool to pick the code I needed*/
+nav {
+	text-align: center;
+	margin: auto;
+  border-radius: 7px;
+  background-color: #9336;
+  color: black;
+}
+
+nav a {
+		display: block;
+		text-decoration: none;
+		color: black;
+		padding: 0;
+	}
+	nav a:hover, nav a:focus {
+  	background-color: black;
+  	color: white ;
+  	outline: none;
+	}
+	ul.menubar {
+  	margin: 0;
+		padding: 0;
+		list-style: none;
+		font-size: 1em;
+		height: 1.85em;
+		width: 39em;
+		border: 1px solid black;
+		background: #ddd;
+	}
+	ul.menubar > li {
+		float: left;
+		display: inline; position: relative;
+		margin: 0;
+		padding: .25em .35em;
+		height: 1.25em;
+		width: 9em;
+	}
+	ul.menu {
+		position: absolute;
+		left: 0;
+		top: 1.75em;
+		display: none;
+		list-style: none;
+		margin: 0;
+		padding: 0;
+		font-weight: normal;
+		font-size: 100%;
+		border: 1px solid black;
+		background-color: #ccc;
+		width: 9.6em;
+	}
+	ul.menu li {
+		float: none;
+		display: block;
+		white-space: nowrap;
+	}
+/*When the menu headers are focused either by mouse or keyboard*/
+	li.menu-hover, li.menu-focus {
+		background-color: black;
+		color: white;
+		outline: none;
+	}
+
+	li.menu-hover > a, li.menu-focus > a {
+		color: white;
+		outline: none;
+	}
